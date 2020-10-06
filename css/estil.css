@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+form{
+
+    margin: auto;
+    padding: 30px;
+    border: 2px solid black;
+    margin-top: 50px;
+    background-color: darkgray;
+}
+
+.login{
+    width: 300px;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+label{
+    width: 120px;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+
+#subject\ {
+    width: 270px;
+}
+
+input[type="text"],input[type="password"]{
+    width: 150px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.message{
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.bodymessage{
+    margin-top: 20px;
+    display: block;
+}
+
+.messageList{
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+
+
+}
+
+.messageList *{
+    margin-top: 8px;
+}
+
+form input[type="submit"],input[type="reset"]{
+    width:35%;
+    padding:8px 8px;
+    margin-top:32px;
+    border:1px solid #000;
+    border-radius:5px;
+    display:inline-block;
+    color:black;
+}
+
+input[type="reset"]{
+    float: right;
+}
+
